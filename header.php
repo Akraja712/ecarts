@@ -467,7 +467,7 @@ $res_logo = $db->getResult();
                             <li><a href="api-key.php"><i class="fa fa-lock"></i> Secret Key </a></li>
                             <li><a href="about-us.php"><i class="fa fa-info"></i> About Us </a></li>
                             <li><a href="update.php"><i class="fa fa-upload"></i> System Updater </a></li>
-                            <li><a href="purchase-code.php"><i class="fa fa-check"></i> System Registration </a></li>
+                           <!-- <li><a href="purchase-code.php"><i class="fa fa-check"></i> System Registration </a></li>-->
 
                         </ul>
                     </li>
