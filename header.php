@@ -148,11 +148,11 @@ $res_logo = $db->getResult();
 
 <body class="hold-transition skin-blue fixed sidebar-mini">
     <div class="wrapper">
-        <?php
-        if ($time_check != $cal_time_check || empty($cal_time_check) || empty($time_check)) {
-            $file = basename($_SERVER['PHP_SELF']);
+        <!--<?php
+       // if ($time_check != $cal_time_check || empty($cal_time_check) || empty($time_check)) {
+          //  $file = basename($_SERVER['PHP_SELF']);
 
-            if ($file != 'purchase-code.php') { ?>
+           // if ($file != 'purchase-code.php') { ?>
                 <div class="overlay"
                     style="background: #000000d9; position: absolute; width: 100%; height: 307%; z-index: 9999999;">
                     <div class="container text-center " style="background: white; padding: 100px; margin-top: 10%;">
@@ -162,9 +162,9 @@ $res_logo = $db->getResult();
                         </div>
                     </div>
                 </div>
-                <?php exit();
-            }
-        } ?>
+                //<?php exit();
+           // }
+       // } ?>-->
         <header class="main-header">
             <!-- Logo -->
             <a href="home.php" class="logo">
@@ -467,7 +467,7 @@ $res_logo = $db->getResult();
                             <li><a href="api-key.php"><i class="fa fa-lock"></i> Secret Key </a></li>
                             <li><a href="about-us.php"><i class="fa fa-info"></i> About Us </a></li>
                             <li><a href="update.php"><i class="fa fa-upload"></i> System Updater </a></li>
-                           <!-- <li><a href="purchase-code.php"><i class="fa fa-check"></i> System Registration </a></li>-->
+                            <li><a href="purchase-code.php"><i class="fa fa-check"></i> System Registration </a></li>
 
                         </ul>
                     </li>
