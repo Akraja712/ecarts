@@ -148,7 +148,6 @@ $res_logo = $db->getResult();
 
 <body class="hold-transition skin-blue fixed sidebar-mini">
     <div class="wrapper">
-     
         <header class="main-header">
             <!-- Logo -->
             <a href="home.php" class="logo">
